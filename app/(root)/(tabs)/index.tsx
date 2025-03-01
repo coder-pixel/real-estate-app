@@ -13,10 +13,10 @@ export default function Index() {
       <Text className="font-bold my-10 font-rubik text-3xl">
         Welcome to ReEstate App
       </Text>
-      <Link href="/sign-in">Sign In</Link>
+      {/* <Link href="/sign-in">Sign In</Link>
       <Link href="/explore">Explore </Link>
       <Link href="/profile">Profile</Link>
-      <Link href="/properties/1">Property 1</Link>
+      <Link href="/properties/1">Property 1</Link> */}
     </View>
   );
 }
