@@ -7,7 +7,6 @@ import icons from "@/constants/icons";
 const Search = () => {
   const path = usePathname();
   const params = useLocalSearchParams<{ query?: string }>();
-
   const [search, setSearch] = useState(params?.query);
 
   const debouncedSearch = useDebouncedCallback((text: string) => {
